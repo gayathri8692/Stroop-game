@@ -1,0 +1,346 @@
+/***********MOBILE VERSION****************/
+
+body {
+    background-image: url('./images/line.gif');
+    background-size: cover;
+    /*width: 70%;*/
+}
+
+h1#title {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 27px;
+    color: rgba(188, 245, 21, 1);
+    text-align: center;
+    font-weight: bolder;
+}
+
+div#prompt {
+    height: 25px;
+    width: 90px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 150px;
+    font-family: 'Changa', sans-serif;
+}
+
+div#one.block {
+    border: 5px solid black;
+    background-color: blue;
+    border-radius: 20px;
+    margin: 0px 0 0 30px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+div#two.block {
+    border: 5px solid black;
+    background-color: red;
+    border-radius: 20px;
+    margin: 90px 0 0 140px;
+    height: 80px;
+    width: 80px;
+}
+
+div#startGame.start {
+    border: 3px solid red;
+    border-radius: 20px;
+    margin: 10px 0 0 75px;
+    height: 25px;
+    font-size: 12px;
+    width: 110px;
+    line-height: 25px;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    color: fuchsia;
+    background: black;
+}
+
+div#startGame.start:hover {
+    color: crimson;
+    box-shadow: -5px -5px 0 palevioletred;
+    transform: translate(5px, 5px);
+    cursor: pointer;
+}
+
+div#three.block {
+    border: 5px solid black;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 50px 0 0 30px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+div#four.block {
+    border: 5px solid black;
+    background-color: green;
+    border-radius: 20px;
+    margin: 50px 0 0 140px;
+    height: 80px;
+    width: 80px;
+}
+
+div#score {
+    position: absolute;
+    margin-top: 90px;
+    text-align: center;
+    left: 20px;
+    z-index: 100;
+    font-size: 20px;
+    color: gold;
+    font-size: bold;
+    font-family: 'Black Ops One', cursive;
+}
+
+div#help.help1 {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin: 40px 0 0 55px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(to right, aqua, aquamarine, whitesmoke);
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+div#help.help1:hover {
+    color: black;
+    box-shadow: -5px -5px 0 teal;
+    transform: translate(5px, 5px);
+    cursor: pointer;
+}
+
+span.helpText {
+    display: none;
+    position: absolute;
+    border-radius: 20px;
+    height: 240px;
+    width: 150px;
+    margin-top: -250px;
+    margin-left: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    font-size: 14px;
+    font-family: 'Changa', sans-serif;
+    padding: 20px;
+    overflow: scroll;
+}
+
+div#restart.restart1 {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 57px;
+    height: 20px;
+    position: absolute;
+    margin: 40px 0 0 145px;
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(to right, aqua, aquamarine, whitesmoke);
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+div#restart.restart1:hover {
+    color: black;
+    box-shadow: -5px -5px 0 teal;
+    transform: translate(5px, 5px);
+    cursor: pointer;
+}
+
+.clickable-div {
+    cursor: pointer;
+}
+
+
+/**************************************/
+
+
+/**************************************/
+
+
+/************* DESKTOP VERSION*********/
+
+
+/**************************************/
+
+
+/**************************************/
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-image: url('./images/color.gif');
+        background-size: cover;
+    }
+    h1#title {
+        font-family: 'Black Ops One', cursive;
+        font-size: 48px;
+        color: rgba(188, 245, 21, 1);
+        text-align: center;
+        font-weight: bolder;
+    }
+    div#prompt {
+        height: 70px;
+        width: 200px;
+        position: absolute;
+        margin-left: 520px;
+        margin-top: -10px;
+        font-size: 40px;
+        line-height: 70px;
+        text-align: center;
+        border-radius: 30px;
+        font-family: 'Changa', sans-serif;
+    }
+    div#one.block {
+        border: 11px solid gold;
+        background-color: blue;
+        border-radius: 30px;
+        margin: 0px 0 0 450px;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+    }
+    div#two.block {
+        border: 11px solid gold;
+        background-color: red;
+        border-radius: 30px;
+        margin: 98px 0 0 650px;
+        height: 120px;
+        width: 120px;
+    }
+    div#startGame.start {
+        border: 7px solid yellowgreen;
+        border-radius: 70px;
+        margin: -25px 0 0 490px;
+        height: 70px;
+        width: 250px;
+        line-height: 70px;
+        font-size: 28px;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-weight: bold;
+        position: absolute;
+        text-align: center;
+        color: crimson;
+        cursor: pointer;
+    }
+    div#startGame.start:hover {
+        color: crimson;
+        box-shadow: -5px -5px 0 palevioletred;
+        transform: translate(5px, 5px);
+    }
+    div#three.block {
+        border: 11px solid gold;
+        background-color: yellow;
+        border-radius: 30px;
+        margin: 40px 0 0 450px;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+    }
+    div#four.block {
+        border: 11px solid gold;
+        background-color: green;
+        border-radius: 30px;
+        margin: 40px 0 0 650px;
+        height: 120px;
+        width: 120px;
+    }
+    div#help.help1 {
+        border: 3px solid black;
+        border-radius: 55%;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        margin: 40px 0 0 510px;
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 10px;
+        background: linear-gradient(to right, aqua, aquamarine, whitesmoke);
+    }
+    div#help.help1:hover {
+        color: black;
+        box-shadow: -5px -5px 0 teal;
+        transform: translate(5px, 5px);
+        cursor: pointer;
+    }
+    span.helpText {
+        display: none;
+        position: absolute;
+        border-radius: 40px;
+        height: 270px;
+        width: 450px;
+        margin-top: -330px;
+        margin-left: 350px;
+        background-color: black;
+        color: white;
+        border: 1px solid red;
+        font-size: 22px;
+        font-family: 'Changa', sans-serif;
+        padding: 40px;
+    }
+    div#score {
+        position: absolute;
+        margin-top: 80px;
+        left: 50px;
+        z-index: 100;
+        font-size: 70px;
+        color: white;
+        font-size: bold;
+        font-family: 'Black Ops One', cursive;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    div.result {
+        display: none;
+        position: absolute;
+        border-radius: 40px;
+        height: 270px;
+        width: 450px;
+        margin-top: -330px;
+        margin-left: 350px;
+        background-color: black;
+        color: white;
+        border: 1px solid red;
+        font-size: 22px;
+        font-family: 'Changa', sans-serif;
+        padding: 40px;
+    }
+    div#restart.restart1 {
+        border: 3px solid black;
+        border-radius: 55%;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        margin: 40px 0 0 630px;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 10px;
+        background: linear-gradient(to right, aqua, aquamarine, whitesmoke);
+    }
+    div#restart.restart1:hover {
+        color: black;
+        box-shadow: -5px -5px 0 teal;
+        transform: translate(5px, 5px);
+        cursor: pointer;
+    }
+    .clickable-div {
+        cursor: pointer;
+    }
+}
